@@ -1,0 +1,108 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b9b9b9;
+    margin: 5em;
+    padding: 0;
+}
+
+/* Estilo para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+/* Estilo para los títulos en el header */
+.header-edit {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para los enlaces en el menú */
+nav li {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px;
+    height: 30px;
+    border: rgb(41, 41, 41) solid;
+}
+
+.nav-item {
+    padding: 2em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Estilo cuando el cursor pasa sobre los enlaces del menú */
+nav li:hover {
+    background-color: #555;
+    font-style: normal;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para los enlaces en el pie de página */
+.pie_pagina a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    border-radius: 500px;
+}
+/*____________________________________________*/
+section {
+    background-color: #f1f1f1;
+    margin: 1em;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div-edit-subtemas {
+    padding: 1em;
+    box-shadow: 0px 3px 10px 5px rgba(128, 128, 128, 0.5);
+    margin: 2em;
+}
+
+section h2 {
+    padding: 1em;
+    text-align: center;
+}
+
+#img-1 {
+    height: 20em;
+    width: auto;
+    box-shadow: 0px 3px 10px 5px grey;
+}
+
+.img {
+    text-align: center;
+}
+
+

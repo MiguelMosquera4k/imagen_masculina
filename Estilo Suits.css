@@ -1,0 +1,111 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9b9b9;
+    margin: 5em;
+    padding: 0;
+}
+
+/* Estilo para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+/* Estilo para los títulos en el header */
+.header-edit {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para los enlaces en el menú */
+nav li {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    border: rgb(70, 70, 70) solid;
+}
+
+.nav-item {
+    padding: 2em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.edit-li-sub {
+    margin: 2em;
+}
+
+/* Estilo cuando el cursor pasa sobre los enlaces del menú */
+nav li:hover {
+    background-color: #555;
+    font-style: normal;
+}
+
+/* Estilo para la sección principal */
+section {
+    background-color: #f1f1f1;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Estilo para imágenes dentro de los artículos */
+#imagen_1 {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para los enlaces en el pie de página */
+.pie_pagina a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilo para el párrafo de descripción */
+#descripcion {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+.edit-enlaces {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.edit-enlaces:hover {
+    color: rgb(46, 46, 46);
+    font-size: 17px;
+}
+
+footer img {
+    border-radius: 500px;
+}
